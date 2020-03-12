@@ -1,0 +1,3 @@
+{
+  "ConnectionString": "User ID=postgres;Password=postgres;Database=sandbox;Server=sandbox;"
+}

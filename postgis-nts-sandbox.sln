@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostGIS.Tests", "PostGIS.Tests\PostGIS.Tests.csproj", "{CC800EE0-937D-41AC-9917-4D2F5DF420D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostGIS.RouteNetworkStuff", "PostGIS.RouteNetworkStuff\PostGIS.RouteNetworkStuff.csproj", "{1D77C66B-3A5C-42A3-8986-9E8A0906DD46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC800EE0-937D-41AC-9917-4D2F5DF420D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC800EE0-937D-41AC-9917-4D2F5DF420D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC800EE0-937D-41AC-9917-4D2F5DF420D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC800EE0-937D-41AC-9917-4D2F5DF420D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D77C66B-3A5C-42A3-8986-9E8A0906DD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D77C66B-3A5C-42A3-8986-9E8A0906DD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D77C66B-3A5C-42A3-8986-9E8A0906DD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D77C66B-3A5C-42A3-8986-9E8A0906DD46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C68479B-9F7A-43DC-8D06-68CB350CF684}
+	EndGlobalSection
+EndGlobal
