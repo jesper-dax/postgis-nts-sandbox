@@ -36,7 +36,7 @@ namespace PostGIS.Tests
                 return false;
 
             // We don't want ends closer to the edge than tolerance
-            if (!GeometrySnapper.SnapToSelf(line, 0.01, false).Equals(line))
+            if (!GeometrySnapper.SnapToSelf(line, tolerance, false).Equals(line))
                 return false;
 
             return true;
@@ -182,7 +182,7 @@ namespace PostGIS.Tests
         [Fact]
         public void EdgeDistanceMoreLessTolerance_NotOk()
         {
-            //  Line end 0.023 from edge is ok
+            //  Line end 0.023 from edge is not ok
             //
             //              S
             //              |
