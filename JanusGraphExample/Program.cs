@@ -35,7 +35,7 @@ namespace Test
                             .ConfigureElement<Vertex>(conf => conf
                                 .IgnoreOnUpdate(x => x.PartitionKey))))
                     .UseJanusGraph(builder => builder
-                        .At("ws://172.17.0.3:31230")
+                        .At("ws://192.168.181.5:31410")
                         //Disable query logging for a noise free console output.
                         //Enable logging by setting the verbosity to anything but None.
                         .ConfigureQueryLoggingOptions(o => o
@@ -43,6 +43,13 @@ namespace Test
 
             var marko = await _g
                 .AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
+				.AddV(new Person { Name = "Marko", Age = 29 })
                 .FirstAsync();
 
             await GetEntities();
